@@ -1,5 +1,12 @@
 const axios = require('axios')
 
+/**
+ *
+ * @param {String} zip1
+ * @param {String} zip2
+ * @returns
+ */
+
 const calculateDistance = async (zip1, zip2) => {
   try {
     console.log('Vehicle Zip Code:', zip2)
