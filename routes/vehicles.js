@@ -9,6 +9,8 @@ router.get('/all', vehicleController.getAllVehicles)
 router.get('/with-distance', vehicleController.getVehiclesWithDistance)
 
 // Route to create a new vehicle
-router.post('/', vehicleController.addVehicle)
+router.post('/add', vehicleController.addVehicle)
+
+router.get('/', vehicleController.getAllVehicles)
 
 module.exports = router
